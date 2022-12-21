@@ -23,31 +23,31 @@ const $$ = document.querySelectorAll.bind(document);
       name: "Lặng Yên",
       author: "Bùi Anh Tuấn",
       src: "./asset/audio/langyen.mp3",
-      img: "http://u669640.webmienphi.vn/files/gallery/9.jpg",
+      img: "./asset/image/1.jpg",
     },
     {
       name: "Chuyện đôi ta",
       author: "no author",
       src: "./asset/audio/chuyendoita.mp3",
-      img: "http://u669640.webmienphi.vn/files/gallery/13.jpg",
+      img: "./asset/image/2.jpg",
     },
     {
       name: "Ngày Mai Em Đi Mất ft DatGMusic",
       author: "Đạt G",
       src: "./asset/audio/Đạt G  Ngày Mai Em Đi Mất  Live at DearOcean DatGMusic.mp3",
-      img: "http://u669640.webmienphi.vn/files/gallery/10.jpg",
+      img: "./asset/image/3.jpg",
     },
     {
       name: "Suýt nữa thì",
       author: "Indie",
       src: "./asset/audio/SUÝT NỮA THÌ  OFFICIAL OST  CHUYẾN ĐI CỦA THANH XUÂN  ANDIEZ x BITIS HUNTER  LYRIC VIDEO.mp3",
-      img: "http://u669640.webmienphi.vn/files/gallery/12.jpg",
+      img: "./asset/image/4.jpg",
     },
     {
       name: " Anh tự do nhưng cô đơn",
       author: "Đạt G",
       src: "./asset/audio/anhtudonhungcodon.mp3",
-      img: "http://u669640.webmienphi.vn/files/gallery/11.jpg",
+      img: "./asset/image/5.jpg",
     },
   ];
   if (
