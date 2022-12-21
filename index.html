@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin around</title>
+    <link rel="stylesheet" href="./asset/src/css/music_box.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+</head>
+<body>
+    <div class="ctn">
+        <div class="card_play_music">
+            <div class="count_song"> <p>Playing music <span class="stt"></span> of <span class="lenght_list"></span> songs</p> </div>
+            <div class="img">
+                <i class="pause fa-regular fa-circle-pause"></i>
+                <i class="play fa-duotone fa-play"></i>
+                <img src="https://f4.bcbits.com/img/a1633851729_16.jpg" alt="" srcset="">
+            </div>
+            <div class="content">
+                <p class="name-singer"><a href="index.html?song=1?es?"> <span class="name">Sơn Tùng M-TP </span> <i class="fa-regular fa-music-note"></i></a></p>
+                <p class="name-song">Hãy trao cho anh</p>
+                <div class="time-play">
+                    <span class="time current">0:00</span>
+                    <input type="range" style=" transition: all .15s;" value="0" class="time_line" id="">
+                    <span class="time full">5:00</span>
+                </div>
+                <div class="volumn flex">
+                    <i class="fa-solid fa-volume-xmark"></i>
+                    <input type="range" class="volumn_new" value="100" id="">
+                    <i class="fa-solid fa-volume open"></i>
+                </div>
+                <div class="controls">
+                    <audio src="audio" class="audio" autostart="true" ></audio>
+                    <input type="text" class="src_song" value=""  id="" hidden>
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <div class="playSongs">
+                        <i class="fa-solid fa-circle-play active" style="z-index: 1;"></i>
+                        <i class="fa-solid fa-circle-pause active" style="z-index: -1;"></i>
+                    </div>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat-1"></i>
+                </div>
+                
+                <div class="mix-song flex">
+                    <div class="mix mix-1"></div>
+                    <div class="mix mix-2"></div>
+                    <div class="mix mix-3"></div>
+                    <div class="mix mix-4"></div>
+                    <div class="mix mix-5"></div>
+                    <div class="mix mix-6"></div>
+                    <div class="mix mix-7"></div>
+                </div>
+                    <i class="fa-solid fa-heart love"></i>
+                    <input type="text" class="love_song" value="0" hidden>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="./asset/src/global/funcglobal.js" type="text/javascript"></script>
+    <script src="./asset/src/javascript/javascript.js" type="text/javascript"></script>
+</body>
+</html>
